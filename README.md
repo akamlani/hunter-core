@@ -1,4 +1,4 @@
-# Machine Leanring / Deep Learning Workflows
+# Machine Learning / Deep Learning Workflows and Experiment Structure
 
 ## Scripts
 - **cluster_dbg.sh**: for remotely debugging across a cluster (SPARK Centric)
