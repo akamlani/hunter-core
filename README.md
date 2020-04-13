@@ -50,3 +50,13 @@ rm -rf data/conf
 ln -s $HOME/Projects/repositories/{template_name}/resources/data/conf/ data/conf
 ```
 
+Citations
+------------------
+If you reference in your research, please cite:
+```
+@article{Hunter2020,
+    author = {Kamlani, Ari},
+    title  = {{Spinning up Deep Learning Frameworks}},
+    year   = {2020}
+}
+```
