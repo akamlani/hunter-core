@@ -2,6 +2,7 @@ from setuptools import setup
 from setuptools import find_packages
 import sys 
 
+from version import get_version
 ###############################################################################
 if sys.version_info < (3, 5):
 	print('{} requires Python 3.5 or later.'.format('hunter-workflows'))
@@ -17,8 +18,8 @@ REQUIRED_PACKAGES = [
 # python setup.py develop
 # pip    install -e .
 setup(
-    name='hunter-workflows',
-    version='0.0.1',            # needs to get this from a version file
+    name='hunter-core',
+    version=get_version(),            
     description='Encapsulation of Workflows for Machine Learning/Deep Learning',
     keywords='deep learning',
 

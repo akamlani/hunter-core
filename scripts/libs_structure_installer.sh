@@ -11,7 +11,7 @@ if [ $# -ne 1 ] ; then usage; fi
 
 # UNIX Structure
 UNIX_HOME=${HOME}
-EXPERIMENTS_HOME=${UNIX_HOME}/experiments
+EXPERIMENTS_HOME=${UNIX_HOME}/dev-platform/experiments
 # Library Structure
 LIBS_HOME=${EXPERIMENTS_HOME}/libs
 LIBS_NAME=${LIBS_HOME}/${LIBS_PACKAGE}/${LIBS_PACKAGE}
