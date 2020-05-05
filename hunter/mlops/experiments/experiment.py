@@ -31,7 +31,10 @@ class Experiment(object):
         template_dir      = os.path.join(experiment_dir, "template")
         project_dir       = os.path.join(experiment_dir,  project_name)
 
+
         self._project_dir = project_dir
+        self._export_dir  = os.path.join(self._project_dir, "exports")
+        self._model_dir   = os.path.join(self._export_dir,  "artifacts")
         self._copy_dir_template(template_dir, project_dir)
 
         self._tags        = {k: v for k,v in tags.items()}
